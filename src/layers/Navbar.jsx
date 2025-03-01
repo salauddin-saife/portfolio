@@ -7,13 +7,14 @@ import Li from "../components/Li";
 import Button from "../components/Button";
 import { FaCirclePlay } from "react-icons/fa6";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Carts from "../components/Carts";
 
 const Navbar = () => {
   return (
     <div>
       <section>
         <div
-          className="max-w-[1920px] mx-auto h-[1530px] bg-center bg-cover bg-no-repeat pt-[] bg-[#1B2316] mt-[] "
+          className="max-w-[1920px] mx-auto h-[1530px] bg-center bg-cover bg-no-repeat pt-[] bg-[#1B2316] mt-[]"
           style={{
             backgroundImage: `url(${BG1})`,
             backgroundPosition: " top -380px center",
@@ -24,7 +25,7 @@ const Navbar = () => {
           NAVBAR section
           ================================= */}
           <Container>
-            <div className="flex ">
+            <div className="flex pt-[20px] ">
               <div className="w-4/12  h-[153px] ">
                 <div className="flex items-center justify- w-[150px] h-[150px] ">
                   <Image src={My_Logo} />
@@ -33,12 +34,30 @@ const Navbar = () => {
               <div className="w-8/12  h-[153px]  gap-x-8 flex justify-end items-center">
                 <div className="font-Inter text-main-text font-medium text-[24px]">
                   <ul className="flex gap-x-10 ">
-                    <Li li_text={"Hello"} />
-                    <Li li_text={"About"} />
-                    <Li li_text={"Service"} />
-                    <Li li_text={"Portfolio"} />
-                    <Li li_text={"Testimonial"} />
-                    <Li li_text={"Skills"} />
+                    <Li
+                      li_text={"Hello"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
+                    <Li
+                      li_text={"About"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
+                    <Li
+                      li_text={"Service"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
+                    <Li
+                      li_text={"Portfolio"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
+                    <Li
+                      li_text={"Testimonial"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
+                    <Li
+                      li_text={"Skills"}
+                      li_class={"hover:scale-[125%] duration-300"}
+                    />
                   </ul>
                 </div>
                 <div>
@@ -51,7 +70,7 @@ const Navbar = () => {
           {/* =================================
           Intro section
           ================================= */}
-          <Container container_class={"pt-[200px] max-w-[1920px]  mx-auto relative "}>
+          <Container container_class={"pt-[200px] max-w-[1920px]  mx-auto  "}>
             <div className="">
               <div className="text-main-text text-[38px] font-normal font-Inter">
                 <h1>Hi, I am</h1>
@@ -78,27 +97,14 @@ const Navbar = () => {
             </div>
           </Container>
 
-          <Container container_class={" pt-[100px] absolute top-[0px] left-[0px]"}>
-            <div
-              className="w-[512px] h-[644px] rounded-[80px]  bg-[#604E8A]/30 backdrop-blur-md rounded-b-[50px]"
-              style={{
-                
-              }}
-            >
-              <div className="pl-[80px] space-y-6">
-                <div className="font-Inter font-normal text-[23px] text-main-text pt-[350px]">
-                  <p>Trendy House Plant</p>
-                </div>
-                <div className=" font-Inter font-normal text-[38px] text-main-text flex justify-between pr-[50px] items-center">
-                  <h1>Calathea plant</h1>
-                  <div>
-                    <MdKeyboardArrowRight />
-                  </div>
-                </div>
-                <div className="inline-block">
-                  <Button Button_text={"Buy Now"} />
-                </div>
-              </div>
+          {/* =================================
+          Card slider section
+          ================================= */}
+          <Container container_class={" pt-[] relative "}>
+            <div className="absolute bottom-[-200px] right-[80px]">
+              {/* <Carts /> */}
+              <Carts showArrow={true} /> 
+              {/* <Carts showArrow={false} /> // Arrow will be hidden */}
             </div>
           </Container>
         </div>

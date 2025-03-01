@@ -6,7 +6,7 @@ const Carts = ({ showArrow }) => {
   return (
     <div>
       <div
-        className="w-[512px] h-[644px] rounded-[80px]  bg-[#604E8A]/30 backdrop-blur-md rounded-b-[50px]  "
+        className="w-[512px] h-[644px] rounded-[80px]  bg-[#604E8A]/30 backdrop-blur-sm  "
         style={{
           boxShadow: "10px 13px 17px -3px rgba(96,78,138,0.75)",
         }}

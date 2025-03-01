@@ -5,18 +5,19 @@ import My_Logo from "../assets/My_Logo.png";
 import BG1 from "../assets/BG1.png";
 import Li from "../components/Li";
 import Button from "../components/Button";
+import { FaCirclePlay } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
     <div>
       <section
-        className="max-w-[1920px] mx-auto h-[153px] bg-[#8E7AC5]"
-        style={{ backgroundImage: `url(${BG1})` }}
+        className="max-w-[1920px] mx-auto h-[1530px] bg-center bg-cover bg-no-repeat pt-[] bg-[#1B2316] mt-[]"
+        style={{ backgroundImage: `url(${BG1})`, backgroundPosition: "top -10px center"  }}
       >
         <Container>
           <div className="flex">
             <div className="w-4/12  h-[153px] ">
-              <div className="flex items-center w-[150px] h-[150px] ">
+              <div className="flex items-center justify- w-[150px] h-[150px] ">
                 <Image src={My_Logo} />
               </div>
             </div>
@@ -33,6 +34,33 @@ const Navbar = () => {
               </div>
               <div>
                 <Button Button_text={"Hello"} />
+              </div>
+            </div>
+          </div>
+        </Container>
+
+        <Container container_class={"pt-[150px] max-w-[1920px]  mx-auto "}>
+          <div className="">
+            <div className="text-main-text text-[38px] font-normal font-Inter">
+              <h1>Hi, I am</h1>
+            </div>
+            <div className="text-main-text text-[118px] font-semibold font-Inter">
+              <h1>Salauddin Saife</h1>
+            </div>
+            <div className="text-main-text text-[23px] font-medium font-Inter w-[893px] ">
+              <h1>
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h1>
+            </div>
+          </div>
+          <div className="flex items-center  gap-x-10 pt-[50px]">
+            <Button Button_text={"Explore"} />
+            <div className="flex items-center gap-4">
+              <FaCirclePlay className="text-[70px] text-main-text hover:text-main-text/70 duration-300  hover:scale-[110%]" />
+              <div className="text-main-text font-Inter font-normal text-[20px]">
+                <h1>Live Demo...</h1>
               </div>
             </div>
           </div>

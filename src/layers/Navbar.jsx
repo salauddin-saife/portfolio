@@ -6,21 +6,25 @@ import BG1 from "../assets/BG1.png";
 import Li from "../components/Li";
 import Button from "../components/Button";
 import { FaCirclePlay } from "react-icons/fa6";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Navbar = () => {
   return (
     <div>
       <section>
         <div
-          className="max-w-[1920px] mx-auto h-[1530px] bg-center bg-cover bg-no-repeat pt-[] bg-[#1B2316] mt-[]"
+          className="max-w-[1920px] mx-auto h-[1530px] bg-center bg-cover bg-no-repeat pt-[] bg-[#1B2316] mt-[] "
           style={{
             backgroundImage: `url(${BG1})`,
-            backgroundPosition: " top -300px center",
+            backgroundPosition: " top -380px center",
             backgroundSize: "",
           }}
         >
+          {/* =================================
+          NAVBAR section
+          ================================= */}
           <Container>
-            <div className="flex">
+            <div className="flex ">
               <div className="w-4/12  h-[153px] ">
                 <div className="flex items-center justify- w-[150px] h-[150px] ">
                   <Image src={My_Logo} />
@@ -44,7 +48,10 @@ const Navbar = () => {
             </div>
           </Container>
 
-          <Container container_class={"pt-[150px] max-w-[1920px]  mx-auto "}>
+          {/* =================================
+          Intro section
+          ================================= */}
+          <Container container_class={"pt-[200px] max-w-[1920px]  mx-auto relative "}>
             <div className="">
               <div className="text-main-text text-[38px] font-normal font-Inter">
                 <h1>Hi, I am</h1>
@@ -66,6 +73,30 @@ const Navbar = () => {
                 <FaCirclePlay className="text-[70px] text-main-text hover:text-main-text/70 duration-300  hover:scale-[110%]" />
                 <div className="text-main-text font-Inter font-normal text-[20px]">
                   <h1>Live Demo...</h1>
+                </div>
+              </div>
+            </div>
+          </Container>
+
+          <Container container_class={" pt-[100px] absolute top-[0px] left-[0px]"}>
+            <div
+              className="w-[512px] h-[644px] rounded-[80px]  bg-[#604E8A]/30 backdrop-blur-md rounded-b-[50px]"
+              style={{
+                
+              }}
+            >
+              <div className="pl-[80px] space-y-6">
+                <div className="font-Inter font-normal text-[23px] text-main-text pt-[350px]">
+                  <p>Trendy House Plant</p>
+                </div>
+                <div className=" font-Inter font-normal text-[38px] text-main-text flex justify-between pr-[50px] items-center">
+                  <h1>Calathea plant</h1>
+                  <div>
+                    <MdKeyboardArrowRight />
+                  </div>
+                </div>
+                <div className="inline-block">
+                  <Button Button_text={"Buy Now"} />
                 </div>
               </div>
             </div>

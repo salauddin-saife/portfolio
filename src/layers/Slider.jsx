@@ -32,7 +32,7 @@ const Slider = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 2000); // Delay of 2 seconds
+    }, 1000); // Delay of 1 seconds
 
     return () => clearTimeout(timer);
   }, []);

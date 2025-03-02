@@ -7,7 +7,7 @@ const Six_part = () => {
   return (
     <div>
       <Container container_class={""}>
-        <div className="">
+        <div className=" pt-[120px]">
           <Cart_2 />
         </div>
       </Container>

@@ -8,7 +8,7 @@ import Dairy_Web from "../assets/Dairy_Web.png"
 import Farm_Web from "../assets/Farm_Web.png" 
 import Cook_Web from "../assets/Cook_Web.png" 
 import Medical_Web from "../assets/Medical_Web.png" 
-import Medicine_Web from "../assets/Medicine_Web.png" 
+import Medicine_Web from "../assets/Medicine_web.png" 
 
 
 const Six_part = () => {

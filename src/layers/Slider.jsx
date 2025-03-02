@@ -47,12 +47,14 @@ const Slider = () => {
           className="absolute bottom-[-200px] right-[80px]"
           initial={{ x: "100vw", opacity: 0 }}
           animate={isVisible ? { x: 0, opacity: 1 } : {}}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <Carts
             showArrow={true}
             Cards_h1={"Let’s Build & Elevate!"}
-            Carts_p1={"Looking for a skilled web designer & frontend developer? Let's work together!"}
+            Carts_p1={
+              "Looking for a skilled web designer & frontend developer? Let's work together!"
+            }
             class_name={"pb-[]"}
             src={Create}
             img_class={"scale-[150%] bottom-[350px] hover:scale-[160%]"}

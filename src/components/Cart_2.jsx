@@ -3,7 +3,7 @@ import Button from "./Button";
 import { FaShopify } from "react-icons/fa";
 import Image from "./Image";
 
-const Cart_2 = ({ Cart_2_h1, Cart_2_p, Cart_2_h2, src}) => {
+const Cart_2 = ({ Cart_2_h1, Cart_2_p, Cart_2_h2, src,img_class}) => {
   return (
     <div
       className=" w-[1619px] h-[526px] rounded-[80px]  bg-[#604E8A]/30 backdrop-blur-sm  "
@@ -15,7 +15,7 @@ const Cart_2 = ({ Cart_2_h1, Cart_2_p, Cart_2_h2, src}) => {
         <div className="w-1/2 relative">
           <div className="scale-[150%] absolute bottom-10 left-35 hover:scale-[155%] duration-300 "
           >
-          <Image img_class={""} src={src}/>
+          <Image img_class={img_class} src={src}/>
           </div>
         </div>
         <div className="w-1/2">

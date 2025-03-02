@@ -19,6 +19,7 @@ import Review1 from "./Review1";
 import Heading from "./Heading";
 import Card_2_Part from "./Card_2_Part";
 import Six_part from "./Six_part";
+import Redesign from "../assets/Redesign.png";
 
 const Navbar = () => {
   return (
@@ -143,10 +144,10 @@ const Navbar = () => {
           ================================= */}
         <Container>
           <div className="font-Inter font-semibold text-[55px] text-main-text pt-[200px] text-center">
-            <h1>Our Best o2</h1>
+            <h1>Our Best Selling Service</h1>
           </div>
           <div className="pt-[100px]">
-            <Cart_2 />
+            <Cart_2 Cart_2_h1={"Transform Your Website – Modern, & Fast!"} Cart_2_h2={"Starting at $100 – Get a Free Consultation!"} Cart_2_p={"Revamp your website with a modern, high-performance design that enhances speed, usability, and aesthetics."} src={Redesign} img_class={"scale-[80%]"}/>
           </div>
         </Container>
 

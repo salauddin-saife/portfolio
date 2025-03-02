@@ -132,9 +132,9 @@ const Navbar = () => {
               <h1>Customer Review</h1>
             </div>
             <div className="flex justify-between pt-[150px]">
-              <Cart_3 src={Review2} />
-              <Cart_3 src={Review3} />
-              <Cart_3 src={Review4} />
+              <Cart_3 src={Review2}  Cart_3_p={"My experience with Saife was absolutely fantastic!!! He took his time to understand what we wanted and paid close attenti....."} />
+              <Cart_3 src={Review3}  Cart_3_p={"Saife did a fantastic job on the website. We needed to spruce up a bad website into a more modern one - ....."} />
+              <Cart_3 src={Review4}  Cart_3_p={"Working with Saife was outstanding. He was so helpful in the design process. He would create youtube videos expla ....."}/>
             </div>
           </div>
         </Container>

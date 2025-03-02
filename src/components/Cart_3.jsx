@@ -2,7 +2,7 @@ import React from 'react'
 import { FaStar } from "react-icons/fa";
 import Image from './Image';
 
-const Cart_3 = ({src}) => {
+const Cart_3 = ({src, Cart_3_p}) => {
   return (
     <div>
         <div
@@ -26,8 +26,7 @@ const Cart_3 = ({src}) => {
               </div>
               <div className="w-[403px] h-[145px] font-Inter font-normal text-[24px] text-main-text pl-[50px] pt-[70px]">
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                </p>
+                {Cart_3_p}</p>
               </div>
             </div>
     </div>

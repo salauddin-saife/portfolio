@@ -142,7 +142,7 @@ const Navbar = () => {
            Our Best section
           ================================= */}
         <Container>
-          <div className="font-Inter font-semibold text-[55px] text-main-text pt-[50px] text-center">
+          <div className="font-Inter font-semibold text-[55px] text-main-text pt-[200px] text-center">
             <h1>Our Best o2</h1>
           </div>
           <div className="pt-[100px]">
@@ -154,7 +154,7 @@ const Navbar = () => {
           Footer section
           ================================= */}
 
-        <div className="pt-[350px]">
+        <div className="pt-[200px]">
           <div
             className=" w-[1920px] h-[540px]  bg-[#604E8A]/30 backdrop-blur-sm  "
             style={{

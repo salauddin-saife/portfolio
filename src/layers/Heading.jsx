@@ -9,7 +9,7 @@ const Heading = () => {
           Heading part section
           ================================= */}
           <Container>
-            <div className="font-Inter text-main-text text-[80px] text-center font-bold pt-[100px]">
+            <div className="font-Inter text-main-text text-[70px] text-center font-bold pt-[100px]">
               <h1>Modern, Sleek & High-Performing Websites</h1>
             </div>
           </Container>

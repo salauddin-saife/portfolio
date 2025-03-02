@@ -1,8 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Image from "./Image";
 
-const Carts = ({ showArrow }) => {
+
+const Carts = ({ showArrow, Cards_h1, Carts_p1,src }) => {
   return (
     <div>
       <div
@@ -11,12 +13,15 @@ const Carts = ({ showArrow }) => {
           boxShadow: "10px 13px 17px -3px rgba(96,78,138,0.75)",
         }}
       >
-        <div className="pl-[80px] space-y-6">
-          <div className="font-Inter font-normal text-[23px] text-main-text pt-[350px]">
-            <p>Trendy House Plant</p>
+        <div className="pl-[60px] space-y-3 relative ">
+          <div className="scale-[50%] hover:scale-[55%] cursor-pointer duration-300 flex items-center justify-center absolute bottom-[-10px] left-0">
+            <Image src={src} img_class={"rounded-[100px] "}/>
+          </div>
+          <div className="font-Inter font-normal text-[23px] text-main-text pt-[380px]">
+            <p>{Carts_p1}</p>
           </div>
           <div className=" font-Inter font-normal text-[38px] text-main-text flex justify-between pr-[50px] items-center">
-            <h1>Calathea plant</h1>
+            <h1>{Cards_h1}</h1>
             {showArrow && ( // Only show if the prop is true
               <div>
                 <MdKeyboardArrowRight />

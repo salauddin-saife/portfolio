@@ -27,12 +27,12 @@ const Six_part = () => {
         <div className="flex justify-between items-center pt-[250px]">
           <Carts Cards_h1={"Aesthetic Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."} src={Aesthetic_Web}/>
           <Carts Cards_h1={"Dairy Website"} Carts_p1={"Pure, Fresh, and Wholesome – Dairy at Its Best!"}  src={Dairy_Web}/>
-          <Carts Cards_h1={"Farm Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Farm_Web}/>
+          <Carts Cards_h1={"Farm Website"} Carts_p1={"Fresh from Our Farm to Your Table – Naturally Grown, Purely Delicious!"}  src={Farm_Web}/>
         </div>
         <div className="flex justify-between items-center pt-[250px]">
-          <Carts Cards_h1={"Cookware Set Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Cook_Web}/>
-          <Carts Cards_h1={"Medical Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Medical_Web}/>
-          <Carts Cards_h1={"Medicine Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Drug}/>
+          <Carts Cards_h1={"Cookware Set Website"} Carts_p1={"Premium Cookware for Every Chef – Cook with Style & Precision!"}  src={Cook_Web}/>
+          <Carts Cards_h1={"Medical Website"} Carts_p1={"Compassionate Care, Innovative Solutions – Your Trusted Medical Partner!"}  src={Medical_Web}/>
+          <Carts Cards_h1={"Medicine Website"} Carts_p1={"Your Health, Our Priority – Trusted Medicines at Your Fingertips!"}  src={Drug}/>
         </div>
       </Container>
     </div>

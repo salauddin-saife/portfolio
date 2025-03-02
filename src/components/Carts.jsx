@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "./Image";
 
 
-const Carts = ({ showArrow, Cards_h1, Carts_p1,src }) => {
+const Carts = ({ showArrow, Cards_h1, Carts_p1,src , class_name, img_class}) => {
   return (
     <div>
       <div
@@ -14,10 +14,10 @@ const Carts = ({ showArrow, Cards_h1, Carts_p1,src }) => {
         }}
       >
         <div className="pl-[60px] space-y-3 relative ">
-          <div className="scale-[50%] hover:scale-[55%] cursor-pointer duration-300 flex items-center justify-center absolute bottom-[-10px] left-0">
+          <div className={`scale-[50%] hover:scale-[55%] cursor-pointer duration-300 flex items-center justify-center absolute bottom-[-10px] left-0 ${img_class}`}>
             <Image src={src} img_class={"rounded-[100px] "}/>
           </div>
-          <div className="font-Inter font-normal text-[23px] text-main-text pt-[380px]">
+          <div className={`font-Inter font-normal text-[23px] text-main-text pt-[380px] ${class_name}`}>
             <p>{Carts_p1}</p>
           </div>
           <div className=" font-Inter font-normal text-[38px] text-main-text flex justify-between pr-[50px] items-center">

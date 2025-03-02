@@ -25,13 +25,13 @@ const Six_part = () => {
         </div>
         <div className="flex justify-between items-center pt-[250px]">
           <Carts Cards_h1={"Aesthetic Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."} src={Aesthetic_Web}/>
-          <Carts Cards_h1={"Hello"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Dairy_Web}/>
-          <Carts Cards_h1={"Hello"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Farm_Web}/>
+          <Carts Cards_h1={"Dairy Website"} Carts_p1={"Pure, Fresh, and Wholesome – Dairy at Its Best!"}  src={Dairy_Web}/>
+          <Carts Cards_h1={"Farm Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Farm_Web}/>
         </div>
         <div className="flex justify-between items-center pt-[250px]">
-          <Carts Cards_h1={"Hello"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Cook_Web}/>
-          <Carts Cards_h1={"Hello"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Medical_Web}/>
-          <Carts Cards_h1={"Hello"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Medicine_Web}/>
+          <Carts Cards_h1={"Cookware Set Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Cook_Web}/>
+          <Carts Cards_h1={"Medical Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Medical_Web}/>
+          <Carts Cards_h1={"Medicine Website"} Carts_p1={"Enhancing beauty, refining confidence – where art meets precision."}  src={Medicine_Web}/>
         </div>
       </Container>
     </div>
